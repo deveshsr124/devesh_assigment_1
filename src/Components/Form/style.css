@@ -1,0 +1,15 @@
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  margin: 0;
+}
+
+.was-validated .form-check-input:valid ~ .form-check-label {
+  color: #212529;
+}
+
+.was-validated .form-check-input:valid {
+  border-color: rgba(0, 0, 0, 0.25);
+}
